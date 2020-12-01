@@ -118,7 +118,7 @@ class TicTacToe
 
   def winner
     if won?
-      return [won?board[0]]
+      return won?
     end
   end
 
