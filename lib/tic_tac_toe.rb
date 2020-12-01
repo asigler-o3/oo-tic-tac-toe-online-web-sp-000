@@ -53,7 +53,7 @@ class TicTacToe
       if token == "X" || token == "O"
         counter += 1
       end
-    end
+  end
     counter
   end
 
