@@ -138,7 +138,7 @@ class TicTacToe
         winner == "X" || winner == "O"
         puts "Congratulations #{winner}!"
       else draw?
-        puts "Cat\'s Game!"
+        puts "Cat's Game!"
       end
   end
 
