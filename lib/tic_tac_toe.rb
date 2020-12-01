@@ -98,18 +98,18 @@ class TicTacToe
     end
   end
 
-def draw?(board)
-   if !won?(board) && full?(board)
-     return true
-   elsif!full?(board) && !won?(board)
-     return false
-   else won?(board)
-     return false
-   end
-end
+  def draw?
+    if !won? && full?
+      return true
+    elsif!full? && !won?
+      return false
+    else won?
+      return false
+    end
+  end
 
-def over?(board)
-  if draw?(board) || won?(board) || full?(board)
+def over?
+  if draw? || won? || full?
     return true
   else
     return false
