@@ -122,22 +122,22 @@ class TicTacToe
     end
   end
 
-  def play(board)
+  def play
     counter = 0
       until counter == 9
-        turn(board)
+        turn
         counter += 1
       end
   end
 
-  def play(board)
-      until over?(board)
-        turn(board)
+  def play
+      until over?
+        turn
       end
-      if won?(board)
-        winner(board) == "X" || winner(board) == "O"
-        puts "Congratulations #{winner(board)}!"
-      else draw?(board)
+      if won?
+        winner == "X" || winner == "O"
+        puts "Congratulations #{winner}!"
+      else draw?
         puts "Cat\'s Game!"
       end
   end
