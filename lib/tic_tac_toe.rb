@@ -5,6 +5,6 @@ class TicTacToe
   end
 
   def WIN_COMBINATIONS
-    
+
   end
 end
